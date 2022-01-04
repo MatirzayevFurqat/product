@@ -1,0 +1,528 @@
+/* Header Styles START*/
+.logo{
+    display: flex;
+    align-items: center;
+}
+header{
+    background: #e5e5e5;
+}
+header .logo img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+header .logo span{
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    color: #173a56;
+}
+header nav .nav-list{
+    display: flex;  
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+header nav .nav-list .nav-item{
+    margin: 0.8rem;
+}
+header nav .nav-list .nav-item .nav-link{
+    display: block;
+    color: #22343d;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+    position: relative;
+}
+header nav .nav-list .nav-item .nav-link::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.1rem;
+    background: #02897a;
+    width: 100%;
+    height: 2px;
+    transform: scale(0);
+    transition: 0.6s;
+    transform-origin: center;
+}
+header nav .nav-list .nav-item .nav-link:hover:after{
+    transform: scale(1.1);
+}
+header .add-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .add-btn i{
+    font-size: 1.25rem;
+    color: #02897a;
+    padding: 0.37rem;
+    background: #dbdbdb;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+header .add-btn i:hover{
+    background: #02897a;
+    color: #fff;
+}
+/* Header Styles END*/
+
+/* Work Info START */
+.work-info{
+    background: #e5e5e5;
+}
+.work-info .text-content h1{
+    margin-bottom: 1.1rem;
+}
+.work-info .text-content p{
+    margin-bottom: 2.8rem;
+}
+.work-info .text-content .play{
+    margin-left: 1.8rem;
+    display: inline;
+}
+.work-info .text-content .play i{
+    color: #02897a;
+    font-size: 0.95rem;
+    margin-right: 0.5rem;
+}
+.work-info .text-content .play a{
+    color: #02897a;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    text-decoration: underline;
+}
+/* Work Info END */
+
+/* Product START*/
+.product-bg{
+    position: absolute;
+    width: 135vw;
+    top: -3rem;
+    left: 50%;
+    transform: translate(-50%);
+    height: 120%;
+    background: #e5e5e5;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    z-index: -1;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product .title h1{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3.75rem;
+}
+.product .contents{
+    margin-bottom: 3.75rem;
+}
+.product .contents .content{
+    padding: 1.5rem;
+}
+.product .contents .content .bg-cube{
+    width: 3.125rem;
+    height: 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.18rem;
+    margin-bottom: 1.8rem;
+    box-shadow: 0 4px 5px -1px #444;
+}
+.product .contents .content .bg-cube i{
+    font-size: 1.05rem;
+    color: #fff;
+}
+.product .contents .content h1{
+    margin-bottom: 0.8125rem;
+}
+/* Product END*/
+
+/* management START */
+.management{
+    margin-top: 3rem;
+}
+.management .text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.management .text-content h2{
+    margin: 0.5rem 0;
+}
+/* management END */
+
+/* Costumer Support START*/
+.support .img-content{
+    padding: 2.5rem;
+}
+.support .text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.support .text-content .checkbox-txt h2{
+    margin-bottom: 0.5rem;
+}
+.support .text-content .checkbox-txt h1{
+    margin-bottom: 1.43rem;
+}
+.support .text-content .checkbox-txt p{
+    margin-bottom: 2rem;
+}
+.support .text-content .checkboxs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.support .text-content .checkboxs .box{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    margin-left: 0;
+
+}
+.support .text-content .checkboxs .box i{
+    width: 2.18rem;
+    height: 2.18rem;
+    font-size: 1rem;
+    border-radius: 0.8125rem;
+    background: #f90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.support .text-content .checkboxs .box p{
+    width: 90%;
+    padding-left: 1.875rem;
+}
+/* Costumer Support END*/
+
+/* Collabrative START */
+.collab .text-content{
+    padding-right: 2rem;
+}
+.collab .text-content h2:nth-child(1){
+    margin-bottom: 0.5rem;
+}
+
+.collab .text-content h1{
+    margin-bottom: 1.43rem;
+}
+
+.collab .text-content p{
+    margin-bottom: 1.875rem;
+}
+
+.collab .img-content{
+    padding: 2rem;
+    padding-left: 3.3rem;
+}
+/* Collabrative END */
+
+/* process START*/
+.process-bg{
+    position: absolute;
+    width: 135vw;
+    top: -3rem;
+    left: 50%;
+    transform: translate(-50%);
+    height: 120%;
+    background: #e5e5e5;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    z-index: -1;
+}
+.process .process-txt h1{
+    text-align: center;
+}
+.process .process-txt p{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.process .process-content{
+    padding: 0 2rem;
+}
+.process .process-content img{
+    width: 6.125rem;
+    height: 6.125rem;
+    margin: 1rem;
+}
+.process .process-content p{
+    color: #2F281E;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 1.65rem;
+    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+    padding: 1rem 2.0625rem;
+}
+.process .process-content .last-element,
+.process .process-content .first-element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+.process .process-btn{
+    margin-top: 3rem;
+}
+/* process END*/
+
+/* strategies START*/
+.strategies-bg{
+    background: #e5e5e5;
+}
+.strat-contents .content{
+    margin: 1rem;
+    margin-left: 0;
+    margin-right: 2rem;
+    border: 1px solid #c7c7c7;
+    border-radius: 0.5rem;
+}
+.strat-contents .content img{
+    border-radius: 0.5rem 0.5rem 0px 0px;
+}
+.strat-contents .content p,
+.strat-contents .content h1{
+    margin: 1.5rem;
+}
+.strat-contents .content p{
+    margin-bottom: 0.75rem;
+}
+.strat-contents .content span{
+    font-weight: 700;
+}
+.strat-contents .content h1{
+    color: #22343d;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    margin-top: 0;
+}
+/* strategies END*/
+
+/* table-contents START */
+.tarfs{
+    background: #e5e5e5;
+}
+.tarfs .table-txt{
+    text-align: center;
+}
+.table-contents .content{
+    margin: 2.2rem;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+}
+.table-contents .content > h3{
+    margin-bottom: 0.5rem;
+}
+.table-contents .content > p{
+    margin-bottom: 1rem;
+}
+.table-contents .content .prise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.table-contents .content .prise div{
+    text-align: left;
+}
+.table-contents .content .prise div span{
+    font-size: 1.5rem;
+    color: #02897a;
+    line-height: 1.875rem;
+}
+.table-contents .content .prise h3{
+    font-weight: 700;
+    font-size: 4.75rem;
+    line-height: 6.25rem;
+    color: #02897a;
+}
+.table-contents .content .list-tarifs{
+    margin-bottom: 2.375rem;
+}
+.table-contents .content .list-tarifs .item-tarifs{
+    margin: 1rem 0;
+}
+.table-contents .content:hover{
+    background: #02897A;
+    color: #fff;
+}
+.table-contents .content:hover .prise h3,
+.table-contents .content:hover .prise div span,
+.table-contents .content:hover .prise div p,
+.table-contents .content:hover h3,
+.table-contents .content:hover p{
+    color: #fff;
+}
+.table-contents .content .btn-tarifs{
+    margin-bottom: 2rem;
+}
+.table-contents .content .btn-tarifs a{
+    background: #02897A;
+    border: 1px solid #02897A;
+    padding: 0.6rem 1.56rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    transition: 0.3s;
+    color: #fff;
+}
+.table-contents .content:hover .btn-tarifs a{
+    color: #173a56;
+    border: 1px solid #bcd0e5;
+    padding: 0.6rem 1.56rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    transition: 0.3s;
+    background: #fff;
+}
+/* table-contents END */
+
+/* clients-say START */
+.clients{
+    background: #e5e5e5;
+    padding-bottom: 7.125rem;
+}
+.clients-say .clients-txt{
+    text-align: center;
+}
+.clients-say .clients-txt p{
+    width: 50%;
+    margin: 0.5rem auto 3.125rem auto;
+}
+.clients-say .table-clients .content{
+    padding: 1.5rem 2rem;
+    margin: 1.625rem;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+}
+.clients-say .table-clients .content .stars{
+    color: #f3cd03;
+    margin-bottom: 1rem;
+}
+.clients-say .table-clients .content .pic{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;    
+}
+.clients-say .table-clients .content .pic img{
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-right: 0.875rem;
+}
+/* clients-say END */
+/* company  */
+.company{
+    background: #e5e5e5;
+}
+.big-box{
+    background: #02897a;
+    border-radius: 2rem;
+    padding:0 1.8125rem;
+}
+
+.big-box h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 5rem;
+}
+
+.big-box a{
+    color: #02897a;
+    padding: 0.8125rem 2.1875rem;
+    background: #fff;
+    border-radius: 0.5rem;
+}
+
+.big-box img{
+    padding-top: 0.5rem;
+}
+/* company */
+/* Footer START */
+footer{
+    padding-top: 10rem;
+    background: #e5e5e5;
+}
+.footer-nav .logo{
+    display: flex;
+    align-items: center;
+}
+.footer-nav .logo img{
+    width: 2rem;
+    height: 2rem;
+}
+.footer-nav .logo span{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #173a56;
+    margin-left: 0.5rem;
+}
+.footer-nav .social{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.footer-nav .social a{
+    margin-right: 1.8rem;
+}
+.footer-nav .social a i{
+    font-size: 1.375rem;
+    color: #02897A;
+}
+.footer-nav ul li {
+    margin: 0.5rem;
+}
+
+.footer-nav ul li a{
+    color: #22343D;
+}
+
+.footer-nav ul li a span{
+    font-weight: 600;
+}
+
+.footer-nav form p{
+    color: #22343D;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.footer-nav form input[type="text"]{
+    width: 20.3125rem;
+    height: 3rem;
+    background: #e5e5e5;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-size: 1.3rem;
+    color: #22343d;
+    margin: 2.125rem 0;
+}
+
+
+footer .last-text h2{
+    text-align: center;
+    margin-bottom: 0.5rem;
+
+}
+/* Footer END */

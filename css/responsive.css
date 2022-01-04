@@ -1,0 +1,35 @@
+
+/* Extra Small */
+@media(max-width:576px){
+    nav{
+        display: none;
+    }
+    header .add-btn{
+        display: none;
+    }
+    .work-info .img-content{
+        order: -1;
+    }
+}
+  /* Small */
+@media(min-width:576px){
+    nav{
+        display: none;
+    }
+    .work-info .img-content{
+        order: -1;
+    }
+}
+  /* medium */
+@media(min-width:768px){
+}
+  /* Large */
+@media(min-width:992px){
+    nav{
+        display: block;
+    }
+}
+  /* Extra Large */
+@media(min-width:1200px){
+
+}

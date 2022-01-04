@@ -7,17 +7,11 @@
     header .add-btn{
         display: none;
     }
-    .work-info .img-content{
-        order: -1;
-    }
 }
   /* Small */
 @media(min-width:576px){
     nav{
         display: none;
-    }
-    .work-info .img-content{
-        order: -1;
     }
 }
   /* medium */

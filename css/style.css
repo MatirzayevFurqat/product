@@ -73,7 +73,7 @@ header .add-btn i:hover{
     background: #e5e5e5;
 }
 .work-info .text-content h1{
-    margin-bottom: 1.1rem;
+    margin-bottom: 1.1rem;  
 }
 .work-info .text-content p{
     margin-bottom: 2.8rem;
@@ -98,16 +98,10 @@ header .add-btn i:hover{
 
 /* Product START*/
 .product-bg{
-    position: absolute;
-    width: 135vw;
-    top: -3rem;
-    left: 50%;
-    transform: translate(-50%);
-    height: 120%;
     background: #e5e5e5;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    z-index: -1;
+    border-bottom-left-radius: 50% 41%;
+    border-bottom-right-radius: 50% 41%;
+    padding-bottom: 300px;
 }
 .product{
     display: flex;
@@ -230,16 +224,10 @@ header .add-btn i:hover{
 
 /* process START*/
 .process-bg{
-    position: absolute;
-    width: 135vw;
-    top: -3rem;
-    left: 50%;
-    transform: translate(-50%);
-    height: 120%;
+    border-top-left-radius: 50% 41%;
+    border-top-right-radius: 50% 41%;
+    padding-top: 2rems;
     background: #e5e5e5;
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
-    z-index: -1;
 }
 .process .process-txt h1{
     text-align: center;

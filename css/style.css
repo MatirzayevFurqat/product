@@ -101,7 +101,6 @@ header .add-btn i:hover{
     background: #e5e5e5;
     border-bottom-left-radius: 50% 41%;
     border-bottom-right-radius: 50% 41%;
-    padding-bottom: 18rem;
 }
 .product{
     display: flex;
@@ -226,7 +225,11 @@ header .add-btn i:hover{
 .process-bg{
     border-top-left-radius: 50% 41%;
     border-top-right-radius: 50% 41%;
-    padding-top: 2rem;
+    background: #e5e5e5;
+}
+.prog-bg{
+    padding-top: 0;
+    margin-top: 0;
     background: #e5e5e5;
 }
 .process .process-txt h1{

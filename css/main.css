@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background: #fff;
     width: 100%;
-    /* overflow-x:hidden; */
+    overflow-x:hidden;
 }
 
 ul{

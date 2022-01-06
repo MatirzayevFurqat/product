@@ -67,7 +67,9 @@
         justify-content: center;
         align-items: center;
     }
-
+    .strat-contents .content{
+        margin: 0;
+    }
     html{
         font-size: 8px;
     }
@@ -134,6 +136,10 @@
         justify-content: center;
         align-items: center;
     }
+    
+    .strat-contents .content{
+        margin: 0;
+    }
     html{
         font-size: 10px;
     }
@@ -185,6 +191,11 @@
     }
     header .homburger{
         display: none;
+    }
+    .strat-contents .content{
+        margin: 1rem auto;
+        margin-left: 0;
+        margin-right: 2rem;
     }
 
     html{

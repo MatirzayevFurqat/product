@@ -68,6 +68,10 @@
     .process-content .right-content .last-element{
         order: 10;
     }
+    .process .process-content .right-content .last-element{
+        order: -1;
+         
+    }
 }
   /* medium */
 @media(min-width:768px){

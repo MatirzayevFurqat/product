@@ -36,6 +36,10 @@
     .process .process-content .right-content .last-element{
         order: -1;
     }
+
+    html{
+        font-size: 8px;
+    }
 }
   /* Small */
 @media(min-width:576px){
@@ -68,13 +72,21 @@
     .process-content .right-content .last-element{
         order: 10;
     }
+<<<<<<< HEAD
     .process .process-content .right-content .last-element{
         order: -1;
          
+=======
+    html{
+        font-size: 10px;
+>>>>>>> 660f40fb31735c680023e207695d12b78b57e974
     }
 }
   /* medium */
 @media(min-width:768px){
+    html{
+        font-size: 14px;
+    }
 }
   /* Large */
 @media(min-width:992px){
@@ -98,8 +110,18 @@
         display: block;
         text-align: left;
     }
+    
+    html{
+        font-size: 16px;
+    }
 }
+
+
   /* Extra Large */
 @media(min-width:1200px){
-
+    
+    
+    html{
+        font-size: 20px;
+    }
 }

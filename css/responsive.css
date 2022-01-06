@@ -72,14 +72,11 @@
     .process-content .right-content .last-element{
         order: 10;
     }
-<<<<<<< HEAD
     .process .process-content .right-content .last-element{
         order: -1;
-         
-=======
+    }
     html{
         font-size: 10px;
->>>>>>> 660f40fb31735c680023e207695d12b78b57e974
     }
 }
   /* medium */

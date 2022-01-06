@@ -274,8 +274,9 @@ header .add-btn i:hover{
 .strategies-bg{
     background: #e5e5e5;
 }
+
 .strat-contents .content{
-    margin: 1rem;
+    margin: 1rem auto;
     margin-left: 0;
     margin-right: 2rem;
     border: 1px solid #c7c7c7;

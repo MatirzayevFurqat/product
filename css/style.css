@@ -265,6 +265,12 @@ header .add-btn i:hover{
     justify-content: center;
     margin: 1rem;
 }
+
+.process .process-content .right-content,
+.process .process-content .left-content{
+    display: flex;
+    flex-direction: column;
+}
 .process .process-btn{
     margin-top: 3rem;
 }
@@ -501,8 +507,9 @@ footer{
 }
 
 .footer-nav form input[type="text"]{
-    width: 20.3125rem;
-    height: 3rem;
+    width: 98%;
+    max-width: 70%;
+    height: 2rem;
     background: #e5e5e5;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
     border: none;

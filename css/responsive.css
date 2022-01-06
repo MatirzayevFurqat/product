@@ -36,6 +36,37 @@
     .process .process-content .right-content .last-element{
         order: -1;
     }
+    .company h1{
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .company .text-centent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .footer-nav > div{
+        /* justify-content: center; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-nav > div > ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-nav > div > form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
     html{
         font-size: 8px;
@@ -69,11 +100,39 @@
     .management .img-content{
         order: -1;
     }
-    .process-content .right-content .last-element{
-        order: 10;
-    }
     .process .process-content .right-content .last-element{
         order: -1;
+    }
+    .company h1{
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .company .text-centent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .footer-nav > div{
+        /* justify-content: center; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-nav > div > ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-nav > div > form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     html{
         font-size: 10px;
@@ -81,6 +140,37 @@
 }
   /* medium */
 @media(min-width:768px){
+.img-content{
+    order: 1;
+    margin-bottom: 0rem;
+}
+.text-content{
+    text-align: left;
+}
+.product .contents .content{    
+    display: block;
+    text-align: left;
+}
+.process .process-content .right-content .last-element{
+    order: 2;
+}
+.company h1{
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.company .text-centent{
+    display: inline-block;
+}    
+.footer-nav > div{
+    justify-content: flex-start;
+}
+.footer-nav > div > ul{
+    display: inline-block;
+}
+.footer-nav > div > form{
+    display: inline-block;
+}
     html{
         font-size: 14px;
     }
@@ -96,18 +186,7 @@
     header .homburger{
         display: none;
     }
-    .img-content{
-        order: 1;
-        margin-bottom: 0rem;
-    }
-    .text-content{
-        text-align: left;
-    }
-    .product .contents .content{    
-        display: block;
-        text-align: left;
-    }
-    
+
     html{
         font-size: 16px;
     }

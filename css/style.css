@@ -69,11 +69,19 @@ header .add-btn i:hover{
     background: #02897a;
     color: #fff;
 }
+input.homburger{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    width: 30px;
+    height: 30px;
+}
 
 .resNavBar{
     position: relative;
     right: -200%;
-    top: 0;
+    /* top: 0; */
     transition: all 0.5s ease;
 }
 input.homburger:checked + .resNavBar{
@@ -82,8 +90,8 @@ input.homburger:checked + .resNavBar{
 .resNavBar .nav-list{
     display: flex;  
     flex-direction: column;
-    justify-content: center;
-    align-items: start;
+    justify-content: flex-start;
+    align-items: end;
 }
 .resNavBar .nav-list .nav-item{
     margin: 0.3rem;

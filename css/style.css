@@ -5,6 +5,7 @@
 }
 header{
     background: #e5e5e5;
+    position: relative;
 }
 header .logo img{
     width: 2.5rem;
@@ -20,16 +21,16 @@ header .logo span{
 header nav{
     position: relative;
 }
-header nav .nav-list{
+header .nav-list{
     display: flex;  
     justify-content: flex-end;
     align-items: center;
     margin-right: 1.5rem;
 }
-header nav .nav-list .nav-item{
+header .nav-list .nav-item{
     margin: 0.8rem;
 }
-header nav .nav-list .nav-item .nav-link{
+header .nav-list .nav-item .nav-link{
     display: block;
     color: #22343d;
     font-size: 1rem;
@@ -37,7 +38,7 @@ header nav .nav-list .nav-item .nav-link{
     line-height: 2rem;
     position: relative;
 }
-header nav .nav-list .nav-item .nav-link::after{
+header .nav-list .nav-item .nav-link::after{
     content: "";
     position: absolute;
     left: 0;
@@ -49,25 +50,37 @@ header nav .nav-list .nav-item .nav-link::after{
     transition: 0.6s;
     transform-origin: center;
 }
-header nav .nav-list .nav-item .nav-link:hover:after{
+header .nav-list .nav-item .nav-link:hover:after{
     transform: scale(1.1);
 }
-header .add-btn{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-header .add-btn i{
+header .turnOn{
     font-size: 1.25rem;
     color: #02897a;
     padding: 0.37rem;
     background: #dbdbdb;
     border-radius: 50%;
     transition: 0.5s;
+    margin: 0 0.5rem;
 }
-header .add-btn i:hover{
+header .turnOn:hover{
     background: #02897a;
     color: #fff;
+}
+
+.navBarInRes{
+    position: absolute;
+    right: 0;
+    top: -1000%;
+    height: 1000%;
+    z-index: 10;
+    background: #e5e5e5;
+    transition: 0.5s ease;
+
+}
+.navBarInRes .nav-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 input.homburger{
     position: absolute;
@@ -76,16 +89,12 @@ input.homburger{
     z-index: 100;
     width: 30px;
     height: 30px;
+    opacity: 0;
+    z-index: 100;
 }
 
-.resNavBar{
-    position: relative;
-    right: -200%;
-    /* top: 0; */
-    transition: all 0.5s ease;
-}
-input.homburger:checked + .resNavBar{
-    right: 0;
+input.homburger:checked + .navBarInRes{
+    top: 3rem;
 }
 .resNavBar .nav-list{
     display: flex;  
@@ -96,6 +105,65 @@ input.homburger:checked + .resNavBar{
 .resNavBar .nav-list .nav-item{
     margin: 0.3rem;
 }
+
+/* ==========================> */
+.nav-icon-5{
+    width: 30px;
+    height: 25px;
+    margin: 0.5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .nav-icon-5 span{
+    background-color:#22343D;
+    position: absolute;
+    border-radius: 2px;
+    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+    width:100%;
+    height: 4px;
+    transition-duration: 500ms
+  }
+  .nav-icon-5 span:nth-child(1){
+    top:0px;
+    left: 0px;
+  }
+  .nav-icon-5 span:nth-child(2){
+    top:11px;
+    left: 0px;
+    opacity:1;
+  }
+  .nav-icon-5 span:nth-child(3){
+    bottom:0px;
+    left: 0px;
+  }
+  .nav-icon-5:hover span:nth-child(1){
+    transform: rotate(-3deg) scaleY(1.1);
+  }
+  .nav-icon-5:hover span:nth-child(2){
+    transform: rotate(3deg) scaleY(1.1);
+  }
+  .nav-icon-5:hover span:nth-child(3){
+    transform: rotate(-4deg) scaleY(1.1);
+  }
+  .homburger:checked ~ .nav-icon-5 span:nth-child(1){
+    transform: rotate(45deg);
+    top: 13px;
+  }
+  .homburger:checked ~ .nav-icon-5 span:nth-child(2){
+    opacity:0;
+  }
+  .homburger:checked ~ .nav-icon-5 span:nth-child(3){
+    transform: rotate(-45deg);
+    top: 13px;
+  }
+
+  /* ===============================< */
+
+
 /* Header Styles END*/
 
 /* Work Info START */

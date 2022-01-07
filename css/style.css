@@ -17,6 +17,9 @@ header .logo span{
     line-height: 2rem;
     color: #173a56;
 }
+header nav{
+    position: relative;
+}
 header nav .nav-list{
     display: flex;  
     justify-content: flex-end;
@@ -65,6 +68,25 @@ header .add-btn i{
 header .add-btn i:hover{
     background: #02897a;
     color: #fff;
+}
+
+.resNavBar{
+    position: relative;
+    right: -200%;
+    top: 0;
+    transition: all 0.5s ease;
+}
+input.homburger:checked + .resNavBar{
+    right: 0;
+}
+.resNavBar .nav-list{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.resNavBar .nav-list .nav-item{
+    margin: 0.3rem;
 }
 /* Header Styles END*/
 

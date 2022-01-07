@@ -1,7 +1,7 @@
 
 /* Extra Small */
 @media(max-width:576px){
-    nav{
+    nav.nav{
         display: none;
     }
     header .add-btn{
@@ -77,7 +77,7 @@
 }
   /* Small */
 @media(min-width:576px){
-    nav{
+    nav.nav{
         display: none;
     }
     header .add-btn{
@@ -185,7 +185,7 @@
 }
   /* Large */
 @media(min-width:992px){
-    nav{
+    nav.nav{
         display: block;
     }
     header .add-btn{

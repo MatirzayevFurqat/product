@@ -74,6 +74,10 @@
     html{
         font-size: 16px;
     }
+
+    .process .process-txt p{
+        width: 70%;
+    }
 }
   /* Small */
 @media(min-width:576px){
@@ -147,6 +151,10 @@
     html{
         font-size: 18px;
     }
+
+    .process .process-txt p{
+        width: 70%;
+    }
 }
   /* medium */
 @media(min-width:768px){
@@ -196,6 +204,10 @@
     }
     .collab div{
         text-align: center;
+    }
+
+    .process .process-txt p{
+        width: 50%;
     }
 }
   /* Large */
